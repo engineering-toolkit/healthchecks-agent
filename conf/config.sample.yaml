@@ -1,0 +1,12 @@
+### Log Configuration
+Log:
+### Log Level: INFO DEBUG WARNING ERROR FATAL
+  Level: DEBUG
+### Healthchecks server configuration
+HC:
+  ServerURL: "http://localhost:8000"
+### HTTP Client (RESTY) Configuration
+HttpClient:
+  RetryCount: 3
+  RetryWaitTime: 5
+  RetryMaxWaitTime: 20
